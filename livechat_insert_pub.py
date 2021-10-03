@@ -12,7 +12,7 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
-from apiclient.errors import HttpError
+from googleapiclient.errors import HttpError
 
 CLIENT_SECRETS_FILE = 'client_secret.json'
 API_SERVICE_NAME = 'youtube'
